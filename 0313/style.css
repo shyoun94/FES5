@@ -1,0 +1,83 @@
+.wrapper{
+    width: 457px;
+    /* background-color: aliceblue;  */
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+.btn-default{
+    width:457px;
+    height:48px;
+    /* background-color: #F5F5F5; */
+    /* text-align: center; */
+    line-height:48px;
+    /* display:grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+     */
+}
+/* .btn-hover{
+    width:457px;
+    height:48px;
+    background-color: #FFF;
+}
+.btn-active{
+    width:457px;
+    height:48px;
+    background-color: #F5F5F5;
+}*/
+.btn-disabled{
+    width:457px;
+    height:48px;
+    background-color: #fff;
+}
+.default{
+    /* display:inline-block; */
+    /* vertical-align: center; */
+    border: 3px solid #000;
+    background: #343f50;
+    width: 88px;
+    height: 32px;
+    padding: 9px 25px;
+    box-shadow: inset 2px 2px 0 0 #4A5568;
+    text-align: center;
+    line-height: 100%;
+    color:white;
+    font-size: 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.default::before{
+    content:"Default";
+}
+.default:hover{
+    animation-play-state:paused;
+    background: blueviolet;
+    transform: scale(1.2);
+    letter-spacing: 2px;;
+}
+.default:hover::before{
+    content:"Hover";
+    text-align: center;
+    cursor: pointer;
+}
+.default:active{
+    animation-play-state:paused;
+    background: salmon; 
+    transform: scale(1.4);
+    box-shadow: 2px 2px 0px 1px gray;
+}
+.default:active::before{
+    content:"Active";
+    text-align: center;
+    cursor: pointer;
+}
+.default,
+.disabled{
+    width:88px;
+    height:32px;
+    margin-top: 8px;
+    margin-left:10px;
+    
+}
