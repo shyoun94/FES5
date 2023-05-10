@@ -1,0 +1,15 @@
+.header-wrapper{
+  background: url("../../img/clock.png") no-repeat center/280px ;
+  padding: 54px 0 59px 0;
+  margin-bottom: 66px;
+}
+.logo{
+  width: 100%;
+}
+@media (min-width: 360px) and (max-width: 450px){
+  .header-wrapper{
+    width: 100%;
+    background-size: contain;
+    margin-bottom: 30px;
+  }
+}
