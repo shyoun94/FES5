@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="">
+    <style>
+        li:first-child{
+            color: salmon;
+        }
+        li:last-child{
+            color: blueviolet;
+        }
+        li:nth-child(2n+3){
+            color: red;
+        }
+        ul::after{
+            content: '[';
+        }
+        li:nth-child(5)::before{
+            content: '여기';
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>첫번쨰</li>
+        <li>두번쨰</li>
+        <li>세번쨰</li>
+        <li>넷번쨰</li>
+        <li>다섯번쨰</li>
+        <li>여섯번쨰</li>
+        <li>일곱번쨰</li>
+        <li>여덟번쨰</li>
+        <li>아홉번쨰</li>
+        <li>열번쨰</li>
+    </ul>
+
+</body>
+</html>

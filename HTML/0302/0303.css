@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+.slogan{
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-align: center;
+    word-break: keep-all;
+}
+.emp{
+    color: rgb(232, 85, 85);
+    /*text-decoration-line: underline;
+    text-decoration-thickness: 2px;*/
+    text-shadow: 1px 1px 2px rgb(241, 168, 168);
+    /*font-style: italic;*/
+}
+.emp2{
+    color: rgb(92, 85, 232);
+    text-shadow: 1px 1px 2px rgb(175, 199, 228);
+    font-style: italic;
+    /*text-decoration-line: underline;*/
+}
